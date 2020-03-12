@@ -1,5 +1,5 @@
 (async function() {
-  const response = await fetch("https://gegen-den-virus.de:8080/emulate/pdf", {
+  const response = fetch("https://gegen-den-virus.de:8080/emulate/pdf", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
