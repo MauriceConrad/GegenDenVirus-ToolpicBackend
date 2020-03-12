@@ -7,7 +7,8 @@
 
 **Content-Type**: `application/json`
 
-**Body**: ```json
+**Body**:
+```json
 {
     "template": {
         "type": "pdf",
