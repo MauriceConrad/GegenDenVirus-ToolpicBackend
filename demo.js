@@ -12,68 +12,41 @@
             "width": 2480,
             "height": 3508,
             "type": "html",
-            "src": "data/templates/corona/doc.html",
+            "src": "data/templates/corona2/doc.html",
             "alias": "Document"
           }
         ],
-        "fonts": [
-
-        ],
-        "fields": [
-          {
-            "type": "Line",
-            "description": "Intro",
-            "key": "intro",
-            "default": "",
-            "properties": {
-
-            }
-          },
-          {
-            "type": "Line",
-            "description": "Paragraph 1",
-            "key": "paragraph1",
-            "default": "",
-            "properties": {
-
-            }
-          },
-          {
-            "type": "Line",
-            "description": "Explanation",
-            "key": "explanation",
-            "default": "",
-            "properties": {
-
-            }
-          },
-          {
-            "type": "Line",
-            "description": "Paragraph 2",
-            "key": "paragraph2",
-            "default": "",
-            "properties": {
-
-            }
-          },
-          {
-            "type": "Line",
-            "description": "Name",
-            "key": "name",
-            "default": "",
-            "properties": {
-
-            }
-          }
-        ]
+        "fonts": [],
+        "fields": []
       },
       doc: 0,
       data: {
-        "intro": "test",
-        "paragraph1": "test2",
-        "explanation":"test3",
-        "paragraph2": "test4",
-        "name": "Familie Yilmaz"
+        "intro": `
+          Liebe Nachbarschaft,
+          <br>
+          liebe Hausgemeinschaft,
+          <br><br>
+          sollten Sie zu einer der durch die derzeitige Pandemie (Coronavirus SARS CoV 2) betroffenen <strong>Risikogruppen</strong> gehören (hohes Alter, Immunschwäche oder bestimmte Grunderkrankungen) möchte ich/möchten wir Sie <u>unterstützen gesund zu bleiben.</u>
+          <strong>Gemeinsam schaffen wir das!</strong>
+        `,
+        "box1": {
+          "title": "WIR HELFEN:",
+          "items": [
+            "Einkäufe und Besorgungen erledigen",
+            "Mit dem Hund gehen",
+            "Internetzugang bereitstellen",
+            "... und Weiteres: Sprechen Sie mich gerne an"
+          ]
+        },
+        "box2": {
+          "title": "KONTAKT:",
+          "items": [
+            "Mein Name: Maurice Conrad",
+            "Telefonnummer: +49 176 74932702",
+            "Ich wohne im 2. Stock"
+          ]
+        },
+        "paragraph1": `<strong>Rufen Sie an</strong> oder hinterlassen Sie einen <strong>Zettel im Briefkasten.</strong>`
       },
       renderings: 1,
       delay: 250

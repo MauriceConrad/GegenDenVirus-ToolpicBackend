@@ -55,6 +55,8 @@ router.post('/:format?', async function(req, res) {
   // Get requested JSON body
   const bodyJSON = req.body;
 
+  console.log(bodyJSON);
+
   // Get document description object by using the given document index from the JSON body
   const docDescriptor = bodyJSON.template.documents[bodyJSON.doc];
 
