@@ -26,7 +26,8 @@
           <br>
           liebe Hausgemeinschaft,
           <br><br>
-          sollten Sie zu einer der durch die derzeitige Pandemie (Coronavirus SARS CoV 2) betroffenen <strong>Risikogruppen</strong> gehören (hohes Alter, Immunschwäche oder bestimmte Grunderkrankungen) möchte ich/möchten wir Sie <u>unterstützen gesund zu bleiben.</u>
+          sollten Sie zu einer der durch die derzeitige Pandemie (Coronavirus SARS CoV 2) betroffenen <strong>Risikogruppen</strong> gehören
+          (hohes Alter, Immunschwäche oder bestimmte Grunderkrankungen) möchte ich/möchten wir Sie <u>unterstützen gesund zu bleiben.</u>
           <strong>Gemeinsam schaffen wir das!</strong>
         `,
         "box1": {
@@ -46,7 +47,8 @@
             "Ich wohne im 2. Stock"
           ]
         },
-        "paragraph1": `<strong>Rufen Sie an</strong> oder hinterlassen Sie einen <strong>Zettel im Briefkasten.</strong>`
+        "paragraph1": `<strong>Rufen Sie an</strong> oder hinterlassen Sie einen <strong>Zettel im Briefkasten.</strong>`,
+        "paragraph2": "Wir freuen uns, helfen zu können!<br>LG Maurice Conrad"
       },
       renderings: 1,
       delay: 250
